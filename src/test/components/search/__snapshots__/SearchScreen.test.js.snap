@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in <SearchScreen should show the component 1`] = `
+Array [
+  <h1>
+    Búsqueda
+  </h1>,
+  <hr />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+         Buscar : 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Buscar un heroe"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn btn-info mt-3 w-100"
+          type="submit"
+        >
+          Buscar ...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Resultados
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info"
+      >
+         Buscar un heroe 
+      </div>
+    </div>
+  </div>,
+]
+`;
